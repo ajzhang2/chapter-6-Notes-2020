@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Array2D()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Array2D\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ printTable()
+comment2.text=\r\n\ Display\ the\ array\ using\ nested\ loops\r\n
+comment3.params=studentIndex
+comment3.target=int\ sumScoresforStudent(int)
+comment3.text=\r\n\ Sums\ the\ scores\ for\ specified\ Student\ for\ the\ specified\ index\ (ie\ the\ row)\r\n\ @param\ studentIndex\ -\ the\ index\ of\ the\ stdent\ in\ the\ table\r\n\ @retrun\ the\ sum\ of\ the\ scores\ for\ the\ specified\ index\r\n
+comment4.params=testScores
+comment4.target=int\ sumTestScores(int)
+numComments=5
