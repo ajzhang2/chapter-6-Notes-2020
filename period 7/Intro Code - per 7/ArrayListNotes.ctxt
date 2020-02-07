@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ArrayListNotes()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ ArrayListNotes\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=size\ range
+comment2.target=java.util.ArrayList\ randomIntegerList(int,\ int)
+comment2.text=\r\n\ Creates\ and\ returns\ a\ reference\ to\ an\ ArrayList\ of\ specified\ number\ of\ Integers\r\n\ each\ element\ is\ equal\ to\ a\ random\ value\r\n\ @param\ size\ \ \ \ \ \ the\ number\ of\ Integers\ to\ add\ to\ the\ list\r\n\ @param\ range\ \ \ \ \ the\ range\ of\ random\ values\ to\ assign\ to\ each\ element\r\n\ @return\ a\ reference\ to\ a\ newly\ created\ and\ initialized\ list\r\n
+comment3.params=list
+comment3.target=int\ sumList(java.util.ArrayList)
+comment4.params=list
+comment4.target=void\ removeEvens(java.util.ArrayList)
+comment4.text=\r\n\ Removes\ even\ number\ form\ the\ specified\ list\r\n\ @param\ list\ \ \ \ \ \ the\ list\ of\ numbers\ to\ potentially\ remove\r\n
+numComments=5
