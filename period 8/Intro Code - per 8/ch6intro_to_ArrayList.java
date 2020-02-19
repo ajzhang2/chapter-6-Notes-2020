@@ -21,7 +21,7 @@ public class ch6intro_to_ArrayList
 public static void main (String[] args)
 {
 	//ArrayList notes
-/*
+/**/
 	// <> indicates the type of ArrayList
 	ArrayList <String> farm = new ArrayList<>();
 

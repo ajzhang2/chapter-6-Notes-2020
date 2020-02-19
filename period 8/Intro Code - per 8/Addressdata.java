@@ -71,26 +71,33 @@ Address Tom   = new Address ("916 Elm Street","Flossmoor", "IL", 60148) ;
 
 
       //String hash1 = contacts[3].hash();
-/*    int hash1 = contacts[3].hash();
+      int hash1 = contacts[3].hash();
       System.out.println(hash1);
       int hash2 = contacts[2].hash();
       System.out.println(hash2);
-/*
+
       for (Address me: contacts)
       {
         System.out.print(me.hash());
         System.out.println("-"+me.hash()%30);
-    }
-
-
+      }
+    
+      
+      Address[] hashcontacts = new Address[3 * contacts.length];
+      
       Address [] hash_array = new Address[3*contacts.length];
 
-      for( int i = 0; i<contacts.length;i++)
+      for(int i = 0; i < contacts.length;i++)
       {
           hash_array[contacts[i].hash()%30] = contacts[i];
-
+          hashcontacts[math.abs(contacts[i].hashCode()%20)] = contacts[i];
       }
-
+      
+      for(Address s: hashcontacts)
+      {
+          System.out.println(s);
+      }
+      
       for (Address me2 :hash_array)
       System.out.println(me2);
 
