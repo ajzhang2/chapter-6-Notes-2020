@@ -39,7 +39,7 @@ public class Address implements Comparable
  		creates a hash number
  		array size must be size of hash table
 	*/
-      public int hash ( )
+      public int hashCode ( )
 
       {
 		  int hash_num = 0;
@@ -50,17 +50,12 @@ public class Address implements Comparable
 
 		  }
 
-		  int factor = 0;
+		  int factor = 31;
 
-		  for (int i = 0; i<city.length(); i++)
-				factor +=city.charAt(i);
+		  int hashCity = city.hashCode();
+		  hash_num += hashCity;
 
 		hash_num *= factor;
-
-
-
-
-
 
 		return hash_num;
       }
